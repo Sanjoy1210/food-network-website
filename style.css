@@ -1,3 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap'); */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -20,7 +26,8 @@ body {
 
 .text-area h1 {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: 700;
+    opacity: 0.8;
 }
 
 .half-width img {
@@ -33,12 +40,11 @@ body {
 }
 
 .link-button {
+    display: inline-block;
     text-decoration: none;
     background-image: linear-gradient(#FB9049, #FD5533);
     color: #fff;
-    /* font-weight: 700; */
-    width: 200px;
-    height: 70px;
-    padding: 10px 30px;
+    margin-top: 20px;
+    padding: 14px 24px;
     border-radius: 100px;
 }
