@@ -9,29 +9,29 @@ body {
     margin: 0;
 }
 
-.flexible-container {
+/* Hero section Start */
+.hero-section {
     display: flex;
     margin-bottom: 80px;
 }
 
 .text-area {
     margin-left: 75px;
-    margin-top: 120px;
-    padding: 5%;
+    margin-top: 100px;
+    padding: 1%;
 }
 .text-area h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     opacity: 0.8;
 }
 .half-width {
-    width: 48%;
+    width: 50%;
     margin-right: 1%;
-    /* padding: 2%; */
-    /* display: flex; */
 }
 .half-width img {
-    width: 100%;
+    width: 90%;
+    margin-top: 35px;
 }
 
 .gradient-color {
@@ -52,12 +52,12 @@ body {
     border-radius: 100px;
 }
 
+/* Hero Section End */
 .about-me {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     padding-top: 100px;
-    display: flex;
 }
 
 .about-me-img {
@@ -66,7 +66,11 @@ body {
 
 .about-me-img img {
     width: 300px;
-    transform: translateY(4px);
+    transform: translateY(-50px);
+}
+
+.about-me-content {
+    padding: 0 45px;
 }
 
 .about-me-content h1 {
@@ -173,3 +177,38 @@ footer {
     margin-bottom: 8px;
     margin-top: 0;
 }
+
+/* Counter section end */
+
+/* Review Section Start */
+.review-area {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.review-area h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.review-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.review-item {
+    width: 20%;
+    margin-left: 4%;
+}
+.review-item img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.review-item p {
+    text-align: justify;
+}
+.review-item h3 {
+    margin-top: 28px;
+    line-height: 1px;
+}
+/* Review Section End */
