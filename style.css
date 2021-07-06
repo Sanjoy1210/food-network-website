@@ -198,6 +198,7 @@ body {
 }
 .review-item p {
     text-align: justify;
+    line-height: 23px;
 }
 .review-item h3 {
     margin-top: 28px;
@@ -240,8 +241,9 @@ body {
 }
 .images img {
     width: 85%;
-    padding: 0 15px!important;
     margin: 0 0 30px!important;
+    box-shadow: 0px 3px 10px #21252947;
+    border-radius: 14px;
 }
 /* Contact Us End */
 
